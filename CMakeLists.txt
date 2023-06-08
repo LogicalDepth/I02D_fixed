@@ -31,6 +31,8 @@ if(NOT DEFINED CMAKE_INSTALL_LIBDIR)
     set(CMAKE_INSTALL_LIBDIR lib)
 endif()
 
+set(IO2D_WITHOUT_SAMPLES 1) 
+set(IO2D_WITHOUT_TESTS 1)
 
 add_subdirectory(P0267_RefImpl/P0267_RefImpl)
 
